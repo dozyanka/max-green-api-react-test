@@ -1,0 +1,20 @@
+MAX Bridge / GREEN-API React test task
+
+1) Place this folder on Desktop, for example:
+   C:\Users\<username>\Desktop\MAX_GreenAPI_React_Test
+
+2) Open PowerShell in this folder.
+
+3) Run:
+   Set-ExecutionPolicy -Scope Process Bypass
+   .\01_run_local.ps1
+
+4) Enter your GREEN-API MAX idInstance and apiTokenInstance in the browser.
+
+5) After checking the project, publish it:
+   .\02_publish_github.ps1
+
+6) Later updates:
+   .\03_push_updates.ps1 -Message "fix: ..."
+
+Full instructions: README.md and docs\SUBMISSION.md
